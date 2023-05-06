@@ -13,12 +13,6 @@ import { useState } from 'react';
 
 export default function Home({signup, setSignup}) {
   const [login, setLogin] = useState(false);
-  // const fixRight = () => {
-  //   let someDiv = document.getElementById('suggestion');
-  //   let distanceToTop = someDiv.getBoundingClientRect().top;
-  //   console.log(distanceToTop);
-  // }
-
 
   return (
     <div className=''>
@@ -38,8 +32,8 @@ export default function Home({signup, setSignup}) {
       </div>
 
       <main className='md:w-[80%] m-auto md:px-2 my-4 '>
-        <div id='secondNav'>
-          <nav className=' sticky top-0 z-50 bg-white md:flex hidden justify-between items-center border-b-2 border-gray-300 pb-2 pt-3'>
+        {/* <div id='secondNav'> */}
+          <nav className='sticky top-0 z-30 bg-white md:flex hidden justify-between items-center border-b-2 border-gray-300 pb-2 pt-3'>
             <div className='px-2'>
               <ul className='flex space-x-4 items-center'>
                 <li className=''>All Posts(32)</li>
@@ -54,11 +48,11 @@ export default function Home({signup, setSignup}) {
               <button className='flex text-white space-x-2 bg-blue-600 px-2 py-1 rounded-md items-center'><span className='text-white'><MdOutlineGroupAdd /></span> <span>Join Group</span> </button>
             </div>
           </nav>
-          <nav className='md:hidden flex px-5 items-center justify-between'>
-            <h2 className='font-bold'>Posts(368)</h2>
+          <nav className='md:hidden flex px-5 items-center justify-between sticky top-0 bg-white'>
+            <h2 className='font-bold bg-white z-30'>Posts(368)</h2>
             <button className='bg-gray-100 px-3 py-1 rounded-lg space-x-2 flex items-center'><span>Filter : All </span><RiArrowDropDownFill /></button>
           </nav>
-        </div>
+        {/* </div> */}
 
 
 

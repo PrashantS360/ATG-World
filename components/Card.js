@@ -8,8 +8,10 @@ import { FaShareAlt } from 'react-icons/fa';
 
 const Card = ({ imgLink, type, heading, content, authorDp, author, views }) => {
     return (
-        <div className='md:w-[45vw] border-2 border-gray-300 rounded-md my-3'>
+        <div className='-z-10 md:w-[45vw] border-2 border-gray-300 rounded-md my-3'>
+            <div className='-z-30'>
             <Image src={imgLink} width={800} height={300} />
+            </div>
             <p className='flex space-x-2 items-center p-2 font-[630]'>
                 {
                     type != "Article" ? type == "Education" ? <MdCastForEducation /> : <BsCalendar2Event /> : <GrArticle />
