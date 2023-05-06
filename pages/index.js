@@ -74,7 +74,7 @@ export default function Home({signup, setSignup}) {
                   <span className="sr-only">Close modal</span>
                 </button>
                 <div className="mb-6">
-                  <p className='flex justify-evenly space-x-2 bg-green-100 px-3 py-3 rounded-t-lg'> <span className='flex text-green-600 justify-center w-full font-[500] text-sm'> Let's learn, share and inspire each other with our passion for computer engineering. Sign up now<TbHandRock className=' text-orange-300' /></span></p>
+                  <p className='flex justify-evenly space-x-2 bg-green-100 px-3 py-3 rounded-t-lg'> <span className='flex text-green-600 justify-center w-full font-[500] text-sm'> Let&apos;s learn, share and inspire each other with our passion for computer engineering. Sign up now<TbHandRock className=' text-orange-300' /></span></p>
                 </div>
 
                 <div className='flex px-5 my-2'>

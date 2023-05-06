@@ -17,7 +17,7 @@ const Navbar = ({ setSignup }) => {
         </div>
         <div className="flex w-1/4 items-center">
           <p>Create Account</p>
-          <button className="text-blue-500 font-bold ml-3" onClick={() => { setSignup(true) }}>It's free!</button>
+          <button className="text-blue-500 font-bold ml-3" onClick={() => { setSignup(true) }}>It&apos;s free!</button>
           <RiArrowDropDownFill className="text-3xl" />
         </div>
       </div>
